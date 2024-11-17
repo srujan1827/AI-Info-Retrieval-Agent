@@ -1,6 +1,6 @@
 def authenticate_google_sheets():
     credentials = service_account.Credentials.from_service_account_file(
-        "C:/Users/Srujan/Downloads/plenary-ability-441810-v5-6190ccd6faa1.json",
+        " ", #replace with the path of your downloaded json file
         scopes=["https://www.googleapis.com/auth/spreadsheets"]
     )
     return credentials
